@@ -1,2 +1,2 @@
-# catch_fish
-In-browser game "Catch The Fish" - Schnapp' dir den Fisch DE by Adnan
+# Catch The Fish by Adnan
+In-browser game "Catch The Fish" - (German) Schnapp' dir den Fisch by Adnan
