@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet" />
+
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="icon" href="img/favicon.ico" />
+        <title>Schnapp' dir den Fisch</title>
+    </head>
+    <body>
+        <header class="w3-container w3-amber">
+            <!-- Modal Trigger -->
+            <i id="game_info_open_button" class="fa fa-question w3-button w3-display-topright w3-padding"></i>
+
+            <h1 id="game_name">Spielname</h1>
+        </header>
+
+        <div id="score_table" class="w3-container w3-amber">
+            <p class="score_sign">Stand</p>
+            <span class="w3-text-red" id="red_player_score">0</span>
+            <span class="score_separator">:</span>
+            <span class="w3-text-blue" id="blue_player_score">0</span>
+        </div>
+
+        <div class="playground">
+            <img src="img/normal_fish.svg" alt="fish" id="fish" />
+            <span class="w3-text-red" id="red_player_info">Bereit?</span>
+            <span class="w3-text-blue" id="blue_player_info">Bereit?</span>
+            <img src="img/cat.svg" alt="red player" id="red_player" />
+            <img src="img/cat.svg" alt="blue player" id="blue_player" />
+            <button id="play_again_button" class="w3-button w3-amber">Spiel starten</button>
+        </div>
+
+        <footer class="w3-container w3-amber">
+            <img src="img/wasd.png" class="player_control" />
+            <span id="footer_text">&nbsp;&copy; by <a class="w3-text-gray" href="https://github.com/adnalp" target="_blank">Adnan</a></span>
+            <img src="img/up_down_left_right.png" class="player_control" />
+        </footer>
+
+        <!-- The Modal -->
+        <div id="game_info" class="w3-modal">
+            <div class="w3-modal-content w3-animate-right w3-card-4 w3-left-align">
+                <header class="w3-container w3-amber">
+                    <i id="game_info_close_button" class="fa fa-close w3-display-topright w3-button"></i>
+                    <h3>Wie spielt man das Spiel?</h3>
+                </header>
+                <div class="w3-container">
+                    <p>
+                        "Schnapp' dir den Fisch" ist ein Multiplayer-Spiel, indem man sich Fische schnappt. Es gibt verschiedene Fische. Manche Fische
+                        sind gut und geben Punkte. Manche Fische sind schlecht und nehmen Punkte weg. Der rote Spieler nutzt die Taste "W" bzw. drückt
+                        auf seine Katze, um sich den Fisch zu schnappen. Das gleiche Prinzip gilt für den blauen Spieler, indem er die Taste "Pfeil
+                        nach oben" nutzt. Der Spieler, der zuerst 5 Punkte erreicht, gewinnt das Spiel. Danach ist es möglich, das Spiel erneut zu
+                        starten, indem auf "Nochmal spielen" gedrückt wird. Tipp: Achte darauf, welchen Fisch du dir schnappst! Viel Spaß!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/main.js"></script>
+        <script src="js/fish.js"></script>
+        <script src="js/player.js"></script>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <title>fish-color</title>
+  <title>hot-springs</title>
+  <g transform="matrix(1, 0, 0, 1, 0, 10.791164)">
+    <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 2px;" d="M 133.694 92.119 C 158.074 92.119 179.426 75.772 185.786 52.236" transform="matrix(0.996195, 0.087156, -0.087156, 0.996195, 6.898563, -13.647638)"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 2px;" d="M 120.275 90.033 C 144.655 90.033 166.007 73.686 172.367 50.15" transform="matrix(0.996195, 0.087156, -0.087156, 0.996195, 6.665692, -12.48603)"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 2px;" d="M 108.034 86.286 C 132.414 86.286 153.766 69.939 160.126 46.403" transform="matrix(0.996195, 0.087156, -0.087156, 0.996195, 6.292538, -11.433412)"/>
+  </g>
+  <g transform="matrix(-1, 0, 0, 1, 199.741318, 10.791164)">
+    <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 2px;" d="M 133.694 92.119 C 158.074 92.119 179.426 75.772 185.786 52.236" transform="matrix(0.996195, 0.087156, -0.087156, 0.996195, 6.898563, -13.647638)"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 2px;" d="M 120.275 90.033 C 144.655 90.033 166.007 73.686 172.367 50.15" transform="matrix(0.996195, 0.087156, -0.087156, 0.996195, 6.665692, -12.48603)"/>
+    <path style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 2px;" d="M 108.034 86.286 C 132.414 86.286 153.766 69.939 160.126 46.403" transform="matrix(0.996195, 0.087156, -0.087156, 0.996195, 6.292538, -11.433412)"/>
+  </g>
+  <ellipse style="fill: rgb(255, 162, 0); stroke: rgb(0, 0, 0);" cx="100" cy="146" rx="100" ry="54"/>
+  <ellipse style="fill: rgb(151, 151, 151);" cx="100" cy="93.989" rx="16" ry="13.989"/>
+</svg>
