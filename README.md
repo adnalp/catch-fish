@@ -7,6 +7,6 @@
 
 🖥️ SCRIPT LANGUAGE: js
 
-➕ ANOTHER USED THINGS THAT ARE NOT BY ME: w3css, google font (I forgot the name), images (no copyright images edited by me)
+➕ USED THINGS THAT ARE NOT BY ME: w3css (very good documentation), google font (i forgot the name), images (no copyright images which are edited by me), lots of stackoverflow :)
 
-🙋 ONE OF MY FIRST UPLOADS TO GITHUB: i started coding (python) ca. two years before this upload
+🙋 ONE OF MY FIRST UPLOADS TO GITHUB: i started coding (python) ca. two years before this upload. now i can make basic websites like this.
