@@ -19,6 +19,10 @@ class Player {
             player.img.src = "img/cat.svg";
             player.img.style.zIndex = 0;
         }, 150);
+
+        if (player.player_score >= needed_score) {
+            end_game();
+        }
     }
     win() {
         this.info.innerHTML = win_text;

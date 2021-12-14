@@ -9,6 +9,8 @@ var game_info_close_button = document.getElementById("game_info_close_button");
 var play_again_button = document.getElementById("play_again_button");
 var score_table = document.getElementById("score_table");
 
+var playground = document.getElementById("playground");
+
 var red_player_score = document.getElementById("red_player_score");
 var blue_player_score = document.getElementById("blue_player_score");
 var red_player_info = document.getElementById("red_player_info");
@@ -33,6 +35,16 @@ var needed_score = 5;
 /* THINGS TO DO RIGHT AFTER STARTING */
 game_name.innerHTML = document.title;
 footer_text.innerHTML = document.title + footer_text.innerHTML;
+
+// do not use portrait. use landscape
+if (window.innerHeight > window.innerWidth) {
+    playground.innerHTML =
+        "DREHE bitte dein Gerät und halte es im Querformat, um spielen zu können!<p class='w3-small'>Ich habe mein Gerät gedreht. <a class='w3-container w3-text-blue' href=''>Seite neu laden</a></p>";
+    playground.style.fontFamily = "Patrick Hand";
+    playground.style.marginTop = "20px";
+    playground.style.maxWidth = "100vw";
+    playground.style.fontSize = "30px";
+}
 
 game_info_open_button.onclick = function () {
     open_game_info();
@@ -94,24 +106,15 @@ function chech_key_controls(event) {
     if (event.code == "ArrowUp") {
         blue_player_took();
     }
-    if (player.player_score >= needed_score) {
-        end_game();
-    }
 }
 
 function add_controls() {
     document.addEventListener("keydown", chech_key_controls);
     redPlayer.img.onclick = function () {
         red_player_took();
-        if (player.player_score >= needed_score) {
-            end_game();
-        }
     };
     bluePlayer.img.onclick = function () {
         blue_player_took();
-        if (player.player_score >= needed_score) {
-            end_game();
-        }
     };
 }
 
