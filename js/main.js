@@ -21,8 +21,8 @@ var fish = document.getElementById("fish");
 var red_player = document.getElementById("red_player");
 var blue_player = document.getElementById("blue_player");
 
-var swing_audio = new Audio("../audio/swing.mp3");
-var win_audio = new Audio("../audio/win.mp3");
+var swing_audio = new Audio("audio/swing.mp3");
+var win_audio = new Audio("audio/win.mp3");
 
 var wait_text = "Warte!";
 var good_text = "Wow!";
